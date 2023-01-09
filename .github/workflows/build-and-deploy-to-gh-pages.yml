@@ -1,0 +1,19 @@
+# This Action builds the documentation site in mkdocs, and pushes it to the gh-pages branch, from where it is deployed
+
+name: build-and-deploy-to-gh-pages.yml
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy-to-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'main'
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - run: mkdocs gh-deploy --force # Output files are force-pushed to gh-pages branch
