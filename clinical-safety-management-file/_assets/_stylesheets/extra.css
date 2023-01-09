@@ -1,3 +1,22 @@
+/* Set the main highlight colour to Endeavour blue */
 :root > * {
   --md-primary-fg-color:        #4678a1;
+}
+
+
+/* Set the footer to Endeavour blue */
+.md-footer {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* enlarges the logo image */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 5rem !important;
+  width: auto;
+}
+
+/* enlarges the font used for titles and navbar */
+.md-header__title {
+  font-size: 1.5rem;
 }
