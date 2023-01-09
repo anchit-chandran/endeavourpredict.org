@@ -21,7 +21,7 @@ dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
 nav:
-  - Home: "index.md"
+  - Home: "overview.md"
   - "clinical-safety-management-system.md"
   - "clinical-safety-management-plan.md"
   - "clinical-safety-case-report.md"
@@ -32,6 +32,7 @@ nav:
   - "medical-device.md"
   - "download.md"
   - "contact.md"
+  - "license.md"
 
 # theme settings, fonts, colours
 theme:
@@ -50,6 +51,7 @@ theme:
     - navigation.top
     - navigation.expand
     # - toc.integrate
+    - content.action.edit
 
   palette:
     # Palette toggle for light mode
@@ -68,6 +70,10 @@ theme:
 
   font:
     code: Roboto Mono
+    
+  icon:
+    edit: material/pencil 
+    view: material/eye
 
 
 # mkdocs plugins
