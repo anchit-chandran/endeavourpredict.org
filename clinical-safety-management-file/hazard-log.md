@@ -1,6 +1,6 @@
 ---
 title: Hazard Log
-author: { { cookiecutter.author_name } }
+author: Dr Marcus Baw
 ---
 
 # Endeavour Predict Hazard Log

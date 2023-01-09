@@ -1,5 +1,5 @@
 ---
 title: "Clinical Safety: Overview"
-author: {{ cookiecutter.author_name }}
+author: Dr Marcus Baw
 ---
 
