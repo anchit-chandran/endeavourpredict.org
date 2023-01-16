@@ -11,7 +11,7 @@ Each Issue represents a Hazard potentially affecting the project.
 
 Hazards can be viewed (and indeed commented on, discussed, and improved) at the URL below:
 
-https://github.com/endeavour-predict/www.endeavour-predict.net/issues
+<https://github.com/endeavour-predict/endeavourpredict.org/issues>
 
 Instead of the more usual and somewhat outdated and chaotic 'spreadsheet' model, often used for Hazard Logs, we are using the [Issues](https://github.com/endeavour-predict/www.endeavour-predict.net/issues/issues) facility in GitHub to record Hazards.
 
