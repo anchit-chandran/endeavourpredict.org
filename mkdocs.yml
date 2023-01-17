@@ -5,34 +5,38 @@ site_author: Endeavour Health Charitable Trust
 site_url:
 
 # MkDocs processes files in this folder into a HTML site
-docs_dir: clinical-safety-management-file
+docs_dir: docs
 
 # Copyright information which is shown in the footer
-copyright: Copyright &copy; 2022 Endeavour Health Charitable Trust
+copyright: Copyright &copy; 2023 Endeavour Health Charitable Trust
 
 # these lines configure the 'GitHub repo' widget on the top right
-# uncomment to enable
-repo_url: https://github.com/endeavour-predict/www.endeavour-predict.net
-repo_name: endeavour-predict
-edit_uri: blob/main/clinical-safety-management-file
+repo_url: https://github.com/endeavour-predict/endeavourpredict.org
+repo_name: endeavourpredict.org
+edit_uri: blob/main/docs
 
 # `mkdocs serve` serves the docs locally on this port
 dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
 nav:
-  - Home: "index.md"
-  - "clinical-safety-management-system.md"
-  - "clinical-safety-management-plan.md"
-  - "clinical-safety-case-report.md"
-  - "hazard-log.md"
-  - "business-continuity.md"
-  - "security.md"
-  - "third-party-tools-safety-assmt.md"
-  - "medical-device.md"
-  - "download.md"
-  - "contact.md"
-  - "license.md"
+  - Home: index.md
+  - About:
+    - About Us: about/index.md
+    - Strategy: about/strategy.md
+  - 'QRisk3':
+      - "qrisk3/qrisk3.md"
+    # - "clinical-safety-management-system.md"
+    # - "clinical-safety-management-plan.md"
+    # - "clinical-safety-case-report.md"
+    # - "hazard-log.md"
+    # - "business-continuity.md"
+    # - "security.md"
+    # - "third-party-tools-safety-assmt.md"
+    # - "medical-device.md"
+    # - "download.md"
+    # - "contact.md"
+    # - "license.md"
 
 # theme settings, fonts, colours
 theme:
@@ -43,15 +47,16 @@ theme:
   favicon: _assets/_images/favicon.png
 
   features:
+    - content.action.edit
+    - navigation.expand
     - navigation.instant
     # uncomment the below two lines for Tabbed navigation (along the header bar)
-    # - navigation.tabs
+    - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.tracking
     - navigation.top
-    - navigation.expand
     # - toc.integrate
-    - content.action.edit
+    - toc.follow
 
   palette:
     # Palette toggle for light mode
@@ -124,6 +129,7 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji

@@ -1,9 +1,7 @@
 ---
-title: "Clinical Safety: Overview"
+title: "Clinical Safety"
 author: Dr Marcus Baw
 ---
-
-# Clinical Safety of the Endeavour Predict Project
 
 ## Clinical Safety
 
