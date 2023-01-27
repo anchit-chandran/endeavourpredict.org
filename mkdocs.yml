@@ -20,7 +20,7 @@ dev_addr: "127.0.0.1:8001"
 
 # Navigation structure
 nav:
-  - Home: index.md
+  - Home: index.md # Landing page
   - About:
     - About Us: about/index.md
     - Strategy: about/strategy.md

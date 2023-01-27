@@ -5,7 +5,7 @@ author: Dr Marcus Baw
 
 # Security
 
-Security is taken extremely seriously by this project and we are complying with the [Data Security and Protection Toolkit (DSPT)](https://digital.nhs.uk/about-nhs-digital/our-work/nhs-digital-data-and-technology-standards/framework/beta---data-security-standards) which is part of latest NHS Digital Data Security Standards.
+Security is taken extremely seriously by the Endeavour Predict project and we are compliant with the [Data Security and Protection Toolkit (DSPT)](https://digital.nhs.uk/about-nhs-digital/our-work/nhs-digital-data-and-technology-standards/framework/beta---data-security-standards) which is part of latest NHS Digital Data Security Standards.
 
 ## Deployment Security 'Code Chain'
 
@@ -19,7 +19,7 @@ Also within these practices are measures which ensure that the code which is dep
 
 * Development machines are password-protected and have full-disk encryption requiring strong passwords in order to decrypt the disk and access the contents.
 
-* Development machines are maintained with latest operating system patches and security updates.
+* Development machines are maintained with full disk encryption, all latest operating system patches and security updates and are physically secured.
 
 * All SSH Keys are protected by a passphrase.
 
@@ -27,15 +27,15 @@ Also within these practices are measures which ensure that the code which is dep
 
 * 'Pushes' of new code to the GitHub repositories are authenticated using **SSH Keys** which are secure, long, cryptographic tokens held on the computers used to develop the growth charts. Use of the token requires a further password, so possession of the computer alone is not enough to use the computer's SSH key to make a push of unauthorised code to GitHub.
 
-* **Signed Commits** - Git commits of code are ['signed' using GPG](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (Gnu Privacy Guard - an open source implementation of the PGP protocol). This is a further attestation to the correct identity of the committer of the code.
+* **Signed Commits** - Git commits of code are ['signed' using GPG](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) (GNU Privacy Guard - an open source implementation of the PGP protocol). This is a further attestation to the correct identity of the committer of the code.
 
 ### Deployments of the server
 
-* Deployment is completely automated, meaning no code can be manually added to our Azure WebApps, before or after deployment. All code comes directly from the trusted GitHub servers.
+* Deployment is completely automated, meaning no code can be manually added to our deployment environment, before, during, or after deployment. All code comes directly from the trusted GitHub servers and deployed via CI.
 
-* Security is handled via long cryptographic keys from Microsoft Azure which are known to GitHub but never made public.
+* Deployment authentication is handled via long cryptographic keys which are known to GitHub but never made public.
 
-* GitHub's 'Action' workflow can use this key to authenticate itself to the Microsoft Azure cloud platform, and can push new code from the GitHub repository to the Azure WebApp where it runs as an application and is available as an API.
+* GitHub's 'Action' workflow can use this key to authenticate itself to the cloud platform, and can push new code from the GitHub repository to the cloud service where it runs as an application and is available as an API.
 
 ### Code 'Promotion' Safety Strategy
 
@@ -47,6 +47,8 @@ Also within these practices are measures which ensure that the code which is dep
 
 * We believe that this strategy reduces the risk of errors being introduced into the API code to a very low level.
 
-### Cyber Essentials
+## Penetration Testing
 
-Insert your Cyber Essential Certificate if available here
+## Cyber Essentials
+
+

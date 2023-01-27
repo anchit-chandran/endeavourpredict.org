@@ -8,3 +8,9 @@ author: Dr Marcus Baw
 coming soon
 
 ## Disaster Recovery
+
+
+## Service Level and SLAs
+
+
+## Uptime Guarantees
