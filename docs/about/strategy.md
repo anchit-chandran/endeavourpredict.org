@@ -20,9 +20,9 @@ Our team comprises some of the foremost experts in the UK on clinical calculatio
 
 ## Roadmap
 
-Our initial focus is to deliver a **UKCA** certified **QRisk3** medical device for **England** which can be used by clinicians as soon as possible. Following that we will work on:
+Our initial focus is to deliver a **UKCA** certified **QRISK3** medical device for **England** which can be used by clinicians as soon as possible. Following that we will work on:
 
-* Extending UKCA certification to include CE and UKNI marking, to allow use of QRisk3 in NI and elsewhere in Europe such as the Republic of Ireland (with some modifications to deprivation score lookup)
+* Extending UKCA certification to include CE and UKNI marking, to allow use of QRISK3 in NI and elsewhere in Europe such as the Republic of Ireland (with some modifications to deprivation score lookup)
 
 * Ensuring that clinical safety requirements of Welsh and Scottish Governments are met, noting that these are in some cases similar to the DCB0129 and DCB0160 requirements for England.
 

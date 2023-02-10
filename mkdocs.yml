@@ -24,7 +24,7 @@ nav:
   - About:
     - About Us: about/index.md
     - Strategy: about/strategy.md
-  - 'QRisk3':
+  - 'QRISK3':
       - "qrisk3/qrisk3.md"
     # - "clinical-safety-management-system.md"
     # - "clinical-safety-management-plan.md"
