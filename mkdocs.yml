@@ -85,7 +85,7 @@ theme:
 # mkdocs plugins
 plugins:
   - git-committers:
-      repository: https://github.com/endeavour-predict/www.endeavour-predict.net
+      repository: https://github.com/endeavour-predict/endeavourpredict.org
       branch: main
   - git-revision-date-localized:
       enable_creation_date: true
