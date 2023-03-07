@@ -1,5 +1,4 @@
 ---
-template: .overrides/home.html
 title: Endeavour Predict
 ---
 

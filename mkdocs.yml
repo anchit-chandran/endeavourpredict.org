@@ -2,7 +2,7 @@
 site_name: Endeavour Predict
 site_description: Website and documentation for the Endeavour Predict API service
 site_author: Endeavour Health Charitable Trust
-site_url:
+site_url: https://endeavourpredict.org
 
 # MkDocs processes files in this folder into a HTML site
 docs_dir: docs
@@ -24,19 +24,22 @@ nav:
   - About:
     - About Us: about/index.md
     - Strategy: about/strategy.md
-  - 'QRISK3':
-      - "qrisk3/qrisk3.md"
-    # - "clinical-safety-management-system.md"
-    # - "clinical-safety-management-plan.md"
-    # - "clinical-safety-case-report.md"
-    # - "hazard-log.md"
-    # - "business-continuity.md"
-    # - "security.md"
-    # - "third-party-tools-safety-assmt.md"
-    # - "medical-device.md"
-    # - "download.md"
-    # - "contact.md"
-    # - "license.md"
+  - Clinical Safety:
+      - Clinical Risk Management System: qrisk3/clinical-safety-management-system.md
+      - Clinical Safety Management Plan: qrisk3/clinical-safety-management-plan.md
+      - Hazard Log: safety/org-hazard-log.md
+  - QRISK3:
+      - QRISK3 Overview: qrisk3/qrisk3.md
+      - Clinical Safety Case Report: qrisk3/clinical-safety-case-report.md
+      - Hazard Log: qrisk3/hazard-log.md"
+    # - "qrisk3/business-continuity.md"
+    # - "qrisk3/security.md"
+    # - "qrisk3/third-party-tools-safety-assmt.md"
+    # - "qrisk3/medical-device.md"
+    # - "qrisk3/download.md"
+    # - "qrisk3/contact.md"
+    # - "qrisk3/license.md"
+  - Townsend Score: townsend/townsend.md
 
 # theme settings, fonts, colours
 theme:
@@ -48,15 +51,19 @@ theme:
   favicon: _assets/_images/favicon.png
 
   features:
-    - content.action.edit
+  features:
+    - content.action.edit # explicitly adds edit button (Material4MkDocs9.0) 
+    - content.action.view # explicitly adds view button (Material4MkDocs9.0) 
+    - content.code.copy
+    - content.code.select
     - navigation.expand
+    - navigation.footer # explicitly adds footer prev/next (Material4MkDocs9.0) 
     - navigation.instant
-    # uncomment the below two lines for Tabbed navigation (along the header bar)
     - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.tracking
+    - navigation.tabs.sticky
     - navigation.top
-    # - toc.integrate
+    - navigation.tracking
+    - toc.integrate
     - toc.follow
 
   palette:
@@ -87,42 +94,38 @@ plugins:
   - git-committers:
       repository: https://github.com/endeavour-predict/endeavourpredict.org
       branch: main
+      enabled: !ENV [ENABLE_GIT_COMMITTERS, false] # makes Git Committers optional
   - git-revision-date-localized:
       enable_creation_date: true
   - search
   - with-pdf:
-        #cover: false
-        #back_cover: true
-        #cover_subtitle: SUBTITLE TEXT
-        #custom_template_path: TEMPLATES PATH
-        #
-        #toc_title: TOC TITLE TEXT
-        #heading_shift: false
-        #toc_level: 3
-        #ordered_chapter_level: 2
-        #excludes_children:
-        #    - 'release-notes/:upgrading'
-        #    - 'release-notes/:changelog'
-        #
-        #exclude_pages:
-        #    - 'bugs/'
-        #    - 'appendix/contribute/'
-        #convert_iframe:
-        #    - src: IFRAME SRC
-        #      img: POSTER IMAGE URL
-        #      text: ALTERNATE TEXT
-        #    - src: ...
-        #two_columns_level: 3
-        #
-        #render_js: true
-        #headless_chrome_path: headless-chromium
-        #
-      output_path: pdf/endeavour-predict-clinical-safety-management-file.pdf
-        #enabled_if_env: ENABLE_PDF_EXPORT
-        #
-        #debug_html: true
-        #show_anchors: true
-        #verbose: true
+      #cover: false
+      back_cover: true
+      #cover_subtitle: SUBTITLE TEXT
+      #custom_template_path: TEMPLATES PATH
+      toc_title: Table Of Contents
+      #heading_shift: false
+      #toc_level: 3
+      #ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #exclude_pages:
+      #    - 'bugs/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      #two_columns_level: 3
+      #render_js: true
+      #headless_chrome_path: headless-chromium
+      output_path: pdf/endeavour-predict-documentation.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #debug_html: true
+      #show_anchors: true
+      #verbose: true
 
 
 # additional markdown features
@@ -139,6 +142,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.snippets:
       check_paths: true
+      auto_append:
+        - includes/_abbreviations.md
   - pymdownx.superfences
   - toc:
       permalink: true
