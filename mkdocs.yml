@@ -44,7 +44,7 @@ nav:
 # theme settings, fonts, colours
 theme:
   name: material
-  custom_dir: endeavour-theme
+  # custom_dir: endeavour-theme
   
   # replace these path or the contents of the files to change the logo and favicon
   logo: _assets/_images/logo.png
