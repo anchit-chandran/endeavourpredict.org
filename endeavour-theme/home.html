@@ -1,29 +1,97 @@
 {% extends "main.html" %}
 
+
 {% block hero %}
 {{ super() }}
 
 <style>
-    
     .wrapper {
         height: 100vh;
+        margin-top: -2.4rem;
+        overflow-x: hidden;
         overflow-y: auto;
+        overscroll-behavior-y: none;
+        perspective: 10px;
+        scroll-behavior: smooth;
+        width: 100vw;
     }
-    
+
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transform-style: preserve-3d;
+        z-index: -1;
+    }
+
+    .background {
+        transform: translateZ(-10px) scale(2);
+    }
+
+    .foreground {
+        transform: translateZ(-5px) scale(1.5);
+    }
+
+    .background,
+    .foreground {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .features {
+        height: 100vh;
+    }
+
     .hero_title {
         font-size: 6em;
     }
-
 </style>
 
-<section class="wrapper">
+<section class="wrapper" data-mdx-component="parallax">
+
     <header>
-        <img src="https://image.similarpng.com/very-thumbnail/2020/09/Sailing-Ship-Stock-Illustration-on-transparent-background-PNG.png"
-            class="background">
-        <img src="https://c8.alamy.com/zooms/9/695a42bf69f04bcd93ddfc42893b0ba4/2d8bf4f.jpg" class="foreground">
-        <h1 class="hero_title">Clinical digital tools As A Service</h1>
+        <img src="/_assets/_images/waves.png" class="endeavour_parallax_image background">
+        <img src="/_assets/_images/ship.png" class="foreground endeavour_parallax_image">
+        <div class="hero_title_div">
+            <h1 class="hero_title">Endeavour Predict</h1>
+            <h2 class="hero_title">Clinical digital tools As A Service</h1>
+        </div>
     </header>
+
 </section>
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
+
+{% block container %}
+<section class="features">
+    <h1>THESE ARE SOME FEATURES!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas error harum consequatur sequi animi fugit
+        excepturi impedit? Praesentium ab, debitis, labore maiores minima omnis rerum beatae, obcaecati corporis
+        modi temporibus sapiente inventore quisquam neque blanditiis? Magni deserunt minima numquam repellendus
+        accusantium aut doloribus ipsum. Vel minus assumenda nemo veniam facere provident animi. Ipsam, nesciunt.
+        Similique dolor debitis quidem hic non repudiandae inventore explicabo libero, maxime corporis sapiente
+        dolorem ducimus dolore incidunt praesentium pariatur beatae fugit minus alias cupiditate. Voluptate
+        mollitia, hic dolorem blanditiis culpa ratione eveniet eius illo consectetur non. Maiores ullam nobis rem
+        explicabo animi tempora enim voluptatibus blanditiis nemo culpa, quo ab pariatur debitis accusamus
+        distinctio corrupti rerum, labore ea similique asperiores, ipsum cupiditate amet voluptates cumque! Ipsa
+        obcaecati nemo ducimus quas dicta ullam laboriosam illo animi blanditiis sunt quod quibusdam repudiandae
+        adipisci numquam quo accusamus, ea libero, ab autem officia molestias! Illum porro aperiam quod maxime minus
+        autem, libero architecto velit maiores? Exercitationem accusantium, veniam quo sapiente quae alias unde
+        facilis mollitia suscipit cupiditate aliquam, atque excepturi, ipsam facere aspernatur itaque? Vero quo aut
+        architecto, facilis similique officia inventore ullam commodi rem voluptatem. Nisi, eaque eligendi
+        necessitatibus ducimus itaque enim a dolorum illum officia dolorem quo, quisquam, vel fuga aperiam. Laborum
+        esse quas ut libero voluptatum, mollitia perspiciatis assumenda autem ipsam sed, itaque aut suscipit illo
+        soluta distinctio doloribus fuga. Dolor accusamus fuga culpa quia facere autem iure, quam nam quis labore
+        corrupti minima numquam tenetur quasi magnam enim libero, harum vel nihil, ratione eos sequi consequatur
+        tempore aspernatur? Adipisci molestiae repellat ipsum sequi quasi laudantium distinctio, neque aliquid
+        consectetur corrupti qui natus, laboriosam corporis dignissimos maiores doloribus tenetur fugiat vero
+        quisquam blanditiis vel ullam inventore. Aliquid repellendus aut inventore ullam voluptas explicabo esse
+        mollitia quas, distinctio minus quia ad temporibus facere nulla animi dicta deserunt nostrum!</p>
+</section>
+{% endblock %}
