@@ -18,6 +18,10 @@ edit_uri: blob/main/docs
 # `mkdocs serve` serves the docs locally on this port
 dev_addr: "127.0.0.1:8001"
 
+# additional directories to watch when running `mkdocs serve`
+watch:
+  - endeavour-theme
+
 # Navigation structure
 nav:
   - Home: index.md # Landing page
@@ -44,7 +48,7 @@ nav:
 # theme settings, fonts, colours
 theme:
   name: material
-  # custom_dir: endeavour-theme
+  custom_dir: endeavour-theme
   
   # replace these path or the contents of the files to change the logo and favicon
   logo: _assets/_images/logo.png
