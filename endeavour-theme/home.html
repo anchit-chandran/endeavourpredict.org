@@ -1,0 +1,29 @@
+{% extends "main.html" %}
+
+{% block hero %}
+{{ super() }}
+
+<style>
+    
+    .wrapper {
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .hero_title {
+        font-size: 6em;
+    }
+
+</style>
+
+<section class="wrapper">
+    <header>
+        <img src="https://image.similarpng.com/very-thumbnail/2020/09/Sailing-Ship-Stock-Illustration-on-transparent-background-PNG.png"
+            class="background">
+        <img src="https://c8.alamy.com/zooms/9/695a42bf69f04bcd93ddfc42893b0ba4/2d8bf4f.jpg" class="foreground">
+        <h1 class="hero_title">Clinical digital tools As A Service</h1>
+    </header>
+</section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}
