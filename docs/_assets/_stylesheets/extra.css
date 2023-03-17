@@ -56,7 +56,7 @@
 }
 
 /* FEATURES SECTION */
-.endeavour_hero_features {
+.endeavour_features {
   background: linear-gradient(
     0deg, 
     var(--endeavour-main-black) 0%,
@@ -64,14 +64,44 @@
     )
 }
 
-/* FEATURES SECTION */
-.endeavour_hero_team {
+.what_we_do {
+  width: 100%;
+  background-color: white;
+  border-radius: 60px 0px 60px 0px;
+  color: var(--endeavour-main-black);
+}
+
+.what_icon_col {
+  padding: 0.2em 1em;
+}
+
+.what_we_do h1,
+.what_we_do h2 {
+  color: var(--endeavour-main-bg-dark-blue);
+}
+
+.what_title {
+  text-decoration: underline 3px var(--endeavour-main-blue);
+  text-underline-offset: 12px;
+}
+
+
+
+i.what_we_do_icon {
+  display: flex;
+  font-size: 2rem;
+}
+
+/* TEAM SECTION */
+.endeavour_team {
   background: linear-gradient(
     0deg, 
     var(--endeavour-main-bg-dark-blue) 0%,
     var(--endeavour-main-black) 87%
     )
 }
+
+
 
 
 /* BUTTONS */

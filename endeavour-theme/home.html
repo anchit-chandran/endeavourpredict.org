@@ -1,8 +1,10 @@
 {% extends "main.html" %}
 
+<!-- BOOTSTRAP STYLESHEET IMPORT -->
 {% block styles %}
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 {{ super() }}
 {% endblock %}
 
@@ -12,6 +14,7 @@
     crossorigin="anonymous"></script>
 </body>
 {%endblock%}
+<!-- BOOTSTRAP STYLESHEET IMPORT -->
 
 
 {% block tabs %}
@@ -29,12 +32,12 @@
 
     <div class=" container">
         <div class="endeavour_header_row row justify-content-center align-items-center py-4">
-            <div class="endeavour_header_col d-flex col-12 col-md-6 h-50">
+            <div class="endeavour_header_col d-flex col-12 col-md-8 h-50">
 
                 <h1 class="py-5">Endeavour <em>Predict</em></h1>
 
 
-                <h2 class="py-3">Clinical digital tools<br>As A Service</h2>
+                <h2 class="py-3">Clinical digital tools As A Service</h2>
 
                 <!-- <button type="button" class="btn btn-dark endeavour_main_button py-2" > -->
                 <a class="btn btn-dark endeavour_main_button py-2" href="../about/">Get Started</a>
@@ -49,17 +52,93 @@
         </div>
     </div>
 </section>
-<section class="endeavour_hero_features">
-    <div class="endeavour_header_row row justify-content-center align-items-center py-4">
-        <div class="endeavour_header_col d-flex col-12 col-md-6 h-50">
-            <h1>FEATURES</h1>
+<section class="endeavour_features">
+    <div class="what_we_do container p-5">
+        <div class="row">
+            <div class="col">
+                <h1 class="what_title">What we do</h1>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col">
+                <div class="row p-1 p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>We do this</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>We also do this</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Imporant point</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Cool note</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>open source</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Calculators</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<section class="endeavour_hero_team">
-    <div class="endeavour_header_row row justify-content-center align-items-center py-4">
-        <div class="endeavour_header_col d-flex col-12 col-md-6 h-50">
-            <h1>TEAM</h1>
+<section class="endeavour_team">
+    <div class="container">
+        <div class="endeavour_header_row row justify-content-center align-items-center py-4">
+            <div class="endeavour_header_col d-flex col-12 col-md-6 h-50">
+                <h1>TEAM</h1>
+            </div>
         </div>
     </div>
 </section>
