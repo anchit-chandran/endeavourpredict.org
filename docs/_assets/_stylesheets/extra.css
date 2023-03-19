@@ -1,13 +1,12 @@
 /* Set the main highlight colour to Endeavour blue */
-:root>* {
+:root > * {
   --md-primary-fg-color: #4678a1;
   --endeavour-main-blue: #4678a1;
   --endeavour-main-bg-dark-blue: #2e303e;
   --endeavour-main-black: #020100;
-  --endeavour-main-white: #FDFFFC;
-  --endeavour-lilac: #7A306C;
+  --endeavour-main-white: #fdfffc;
+  --endeavour-lilac: #7a306c;
 }
-
 
 /* Set the footer to Endeavour blue */
 .md-footer {
@@ -26,18 +25,20 @@
   font-size: 1.5rem;
 }
 
-
 /* ENDEAVOUR STYLINGS */
+
+section {
+  height: 85vh;
+}
 
 /* MASTHEAD SECTION */
 
 .endeavour_hero_masthead {
   background: linear-gradient(
-    0deg, 
+    0deg,
     var(--endeavour-lilac) 0%,
-    /* var(--endeavour-main-bg-dark-blue) 33%, */
-    var(--endeavour-main-blue) 87%
-    )
+    /* var(--endeavour-main-bg-dark-blue) 33%, */ var(--endeavour-main-blue) 87%
+  );
 }
 
 .endeavour_header_row {
@@ -45,23 +46,61 @@
 }
 
 .endeavour_header_col {
-
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: start;
+  align-items: center;
+  text-align: center;
 }
 
-.endeavour_logo {
-  filter: drop-shadow(-5px 5px 2px black);
+ul.adjectives-list {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
+
+.adjectives-container {
+  overflow: hidden;
+  height: calc(1.375rem + 1.5vw);
+}
+
+@keyframes change {
+  0%,
+  100%,
+  25.33%{
+    transform: translateY(0%);
+  }
+  33.33%,59.66% {
+    transform: translateY(-36%);
+  }
+  66.66%,93.99% {
+    transform: translateY(-73%);
+  }
+}
+
+.endeavour_header_col h1 {
+  font-size:  calc(1.375rem + 4vw);
+}
+
+.endeavour_header_col > h2 {
+  font-size: calc(1.375rem + 1.4vw);
+}
+
+.adjective > h3 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
 
 /* FEATURES SECTION */
 .endeavour_features {
   background: linear-gradient(
-    0deg, 
+    0deg,
     var(--endeavour-main-black) 0%,
     var(--endeavour-lilac) 87%
-    )
+  );
 }
 
 .what_we_do {
@@ -85,8 +124,6 @@
   text-underline-offset: 12px;
 }
 
-
-
 i.what_we_do_icon {
   display: flex;
   font-size: 2rem;
@@ -95,14 +132,11 @@ i.what_we_do_icon {
 /* TEAM SECTION */
 .endeavour_team {
   background: linear-gradient(
-    0deg, 
+    0deg,
     var(--endeavour-main-bg-dark-blue) 0%,
     var(--endeavour-main-black) 87%
-    )
+  );
 }
-
-
-
 
 /* BUTTONS */
 .endeavour_main_button {
