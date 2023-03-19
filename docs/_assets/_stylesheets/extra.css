@@ -138,6 +138,35 @@ i.what_we_do_icon {
   );
 }
 
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 100;
+}
+
+.team.card {
+  background-color: transparent;
+}
+
+img.team {
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team_job {
+  font-weight: 100;
+}
+
+.team_description {
+  text-align: justify;
+  font-size: 1rem;
+  font-style: italic;
+}
+
 /* BUTTONS */
 .endeavour_main_button {
   color: var(--endeavour-main-black);
