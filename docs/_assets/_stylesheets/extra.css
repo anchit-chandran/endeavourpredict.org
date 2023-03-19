@@ -81,6 +81,10 @@ ul.adjectives-list {
   }
 }
 
+.endeavour_header_col > h1,h2,h3 {
+  color: rgb(var(--endeavour-main-white));
+}
+
 .endeavour_header_col h1 {
   font-size:  calc(1.375rem + 4vw);
 }
