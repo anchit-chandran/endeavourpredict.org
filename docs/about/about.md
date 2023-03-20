@@ -1,6 +1,7 @@
 ---
 title: "About"
-author: Dr Marcus Baw, Dr Anchit Chandran
+author: Dr Marcus Baw
+reviewers: Dr Anchit Chandran
 ---
 
 ## Endeavour Predict

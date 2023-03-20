@@ -1,6 +1,7 @@
 ---
 title: Strategy and Roadmap
-author: Dr Marcus Baw, Dr Anchit Chandran
+author: Dr Marcus Baw
+reviewers: Dr Anchit Chandran
 ---
 
 ## The Strategy Is Delivery
