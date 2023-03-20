@@ -1,19 +1,20 @@
 ---
 title: Clinical Safety Management File Content License
 author: Dr Marcus Baw
+reviewers: Dr Anchit Chandran
 ---
 
 # License file for the Endeavour Health Charitable Trust Clinical Safety Management File
 
-This clinical safety management file is in a public repository. Having completely open clinical safety documention is a good way to increase transparency and to demonstrate genuine attention to clinical safety issues.
+This clinical safety management file is in a public repository. Having completely open clinical safety documentation is a good way to increase transparency and demonstrate genuine attention to clinical safety issues.
 
-We are happy for it to be reused by others implementing open source projects. If you do reuse any part of this work, you **must** attribute Endeavour Health Charitable Trust, and follow the other terms of this license. If you are a commercial organisation wishing to use this documentation then we may consider dual-licensing to allow for this. Please contact us.
+We are happy for it to be reused by others implementing open-source projects. If you do reuse any part of this work, you **must** attribute Endeavour Health Charitable Trust, and follow the other terms of this license. If you are a commercial organisation wishing to use this documentation, then we may consider dual-licensing to allow for this. Please contact us.
 
 -------
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
+Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under its terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.
 
 ## Using Creative Commons Public Licenses
 
