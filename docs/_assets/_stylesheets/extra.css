@@ -115,6 +115,7 @@ ul.adjectives-list {
 
 .what_we_do p {
   font-size: 0.8rem;
+  text-align: justify;
 }
 
 .what_title {
@@ -168,8 +169,14 @@ img.team {
 
 
 /* BUTTONS */
-.endeavour_main_button {
+.btn.endeavour_main_button {
   color: var(--endeavour-main-black);
   background-color: var(--endeavour-main-white);
+  box-shadow: -5px 5px 10px 1px rgb(0 0 0 / 75%);
+}
+
+.btn.endeavour_main_button:hover {
+  color: var(--endeavour-main-white);
+  background-color: var(--endeavour-lilac);
   box-shadow: -5px 5px 10px 1px rgb(0 0 0 / 75%);
 }
