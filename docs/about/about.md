@@ -15,6 +15,6 @@ More information on Endeavour Predict, ClinRisk and Endeavour Health can be foun
 
 Endeavour Predict provides important clinical calculations to end users, by providing these as Application Programming Interfaces (APIs). These allow computers to talk to each other in a standardised way and enable the exchanging of structured data.
 
-Building these clinical digital tools as APIs creates a 'single source of truth', which all EPRs can connect to, and receive clinically assured, warranted values for clinical calculations such as QRISK3, QFracture, QCancer, and QDiabetes.
+Building these clinical digital tools as APIs creates a 'single source of truth', which all EPRs can connect to, and receive clinically-assured, warranted values for clinical calculations such as QRISK3, QFracture, QCancer, and QDiabetes.
 
 In the future, we plan to add other clinical tools.
