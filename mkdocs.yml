@@ -29,12 +29,12 @@ nav:
     - About Us: about/index.md
     - Strategy: about/strategy.md
   - Clinical Safety:
-      - Clinical Risk Management System: qrisk3/clinical-safety-management-system.md
-      - Clinical Safety Management Plan: qrisk3/clinical-safety-management-plan.md
+      - Clinical Risk Management System: safety/clinical-safety-management-system.md
+      - Clinical Safety Management Plan: safety/clinical-safety-management-plan.md
       - Hazard Log: safety/org-hazard-log.md
   - QRISK3:
       - QRISK3 Overview: qrisk3/qrisk3.md
-      - Clinical Safety Case Report: qrisk3/clinical-safety-case-report.md
+      - Clinical Safety Case Report: qrisk3/safety/clinical-safety-case-report.md
       - Hazard Log: qrisk3/hazard-log.md"
     # - "qrisk3/business-continuity.md"
     # - "qrisk3/security.md"
