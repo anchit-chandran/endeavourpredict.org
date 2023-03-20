@@ -35,6 +35,7 @@ nav:
       - Clinical Safety Management Plan: safety/clinical-safety-management-plan.md
       - Clinical Safety Case Report: safety/clinical-safety-case-report.md
       - Hazard Log: safety/hazard-log.md
+      - Third Party Tools Safety: safety/third-party-tools-safety.md
       - License: 'safety/license.md'
     - DTAC: 'safety/dtac.md'
     - Medical Devices Registration: "safety/medical-device.md"
