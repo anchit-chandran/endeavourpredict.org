@@ -26,15 +26,15 @@ watch:
 nav:
   - Home: index.md # Landing page
   - About:
-    - About Us: about/index.md
+    - About Us: about/about.md
     - Strategy: about/strategy.md
   - Clinical Safety:
-    - Overview: "safety/third-party-tools-safety-assmt.md"
+    - Overview: "safety/clinical-safety.md"
     - Clinical Safety File:
       - Clinical Risk Management System: safety/clinical-safety-management-system.md
       - Clinical Safety Management Plan: safety/clinical-safety-management-plan.md
       - Clinical Safety Case Report: safety/clinical-safety-case-report.md
-      - Hazard Log: safety/org-hazard-log.md
+      - Hazard Log: safety/hazard-log.md
       - License: 'safety/license.md'
     - DTAC: 'safety/dtac.md'
     - Medical Devices Registration: "safety/medical-device.md"
@@ -51,7 +51,7 @@ nav:
   - Technical:
     - "technical/security.md"
     - "technical/service-status.md"
-  - Contact (RCPCH COPY): contact.md
+  - Contact: contact/contact.md
 
 # theme settings, fonts, colours
 theme:
