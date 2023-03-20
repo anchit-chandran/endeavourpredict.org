@@ -29,26 +29,28 @@ nav:
     - About Us: about/index.md
     - Strategy: about/strategy.md
   - Clinical Safety:
+    - Overview: "safety/third-party-tools-safety-assmt.md"
+    - Clinical Safety File:
       - Clinical Risk Management System: safety/clinical-safety-management-system.md
       - Clinical Safety Management Plan: safety/clinical-safety-management-plan.md
+      - Clinical Safety Case Report: safety/clinical-safety-case-report.md
       - Hazard Log: safety/org-hazard-log.md
+      - License: 'safety/license.md'
+    - DTAC: 'safety/dtac.md'
+    - Medical Devices Registration: "safety/medical-device.md"
+    - Business Continuity: "safety/business-continuity.md"
+    - Download: 'safety/download.md'
   - QRISK3:
       - QRISK3 Overview: qrisk3/qrisk3.md
-      - Clinical Safety Case Report: qrisk3/safety/clinical-safety-case-report.md
-      - Hazard Log: qrisk3/hazard-log.md"
-    # - "qrisk3/business-continuity.md"
-    # - "qrisk3/security.md"
-    # - "qrisk3/third-party-tools-safety-assmt.md"
-    # - "qrisk3/medical-device.md"
-    # - "qrisk3/download.md"
-    # - "qrisk3/contact.md"
-    # - "qrisk3/license.md"
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
     - 'legal/disclaimer.md'
     - 'legal/licensing-copyright.md'
     - 'legal/data-protection.md'
     - 'legal/privacy-notice.md'
+  - Technical:
+    - "technical/security.md"
+    - "technical/service-status.md"
   - Contact (RCPCH COPY): contact.md
 
 # theme settings, fonts, colours
@@ -73,7 +75,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - toc.integrate
+    # - toc.integrate
     - toc.follow
 
   palette:
