@@ -44,6 +44,12 @@ nav:
     # - "qrisk3/contact.md"
     # - "qrisk3/license.md"
   - Townsend Score: townsend/townsend.md
+  - Legal (RCPCH COPY):
+    - 'legal/disclaimer.md'
+    - 'legal/licensing-copyright.md'
+    - 'legal/data-protection.md'
+    - 'legal/privacy-notice.md'
+  - Contact (RCPCH COPY): contact.md
 
 # theme settings, fonts, colours
 theme:
