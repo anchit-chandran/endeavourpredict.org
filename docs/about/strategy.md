@@ -26,7 +26,7 @@ On completion, we will work on:
 
 * Extending UKCA certification to include CE and UKNI marking, to allow the use of QRISK3 in NI and elsewhere in Europe such as the Republic of Ireland (with some modifications to deprivation score lookup).
 
-* Ensuring that clinical safety requirements of Welsh and Scottish Governments are met, noting that these are in some cases similar to the DCB0129 and DCB0160 requirements for England.
+* Ensuring clinical safety requirements of Welsh and Scottish Governments are met, noting these are similar to the DCB0129 and DCB0160 requirements for England, in some cases.
 
 * Developing a further suite of similar digital clinical APIs, including QFracture, QCancer, QDiabetes, QBleed, QStroke, QThrombosis and many more.
 
