@@ -29,6 +29,32 @@
 
 /* MASTHEAD SECTION */
 
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+ @media only screen and (max-device-width: 1366px) {
+  .parallax-container {
+    background-attachment: scroll;
+  }
+} 
+
+.parallax-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+
+  background-image: url('../_images/ship-reduce-opacity.png');
+  background-position: center;
+  background-size: 75vh;
+  background-repeat: no-repeat;
+  color: var(--color);
+  row-gap: 4rem;
+
+  text-align: center;
+}
+
 .endeavour_hero_masthead {
   background: linear-gradient(
     0deg,
