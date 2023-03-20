@@ -140,11 +140,7 @@ i.what_we_do_icon {
 
 /* TEAM SECTION */
 .endeavour_team {
-  background: linear-gradient(
-    0deg,
-    var(--md-footer-bg-color) 0%,
-    var(--endeavour-main-black) 87%
-  );
+  background-color: var(--endeavour-main-white);
 }
 
 .team {
@@ -168,15 +164,6 @@ img.team {
 
 .team_job {
   font-weight: 100;
-}
-
-.endeavour_team h1,
-.endeavour_team h2,
-.endeavour_team h3,
-.endeavour_team h4,
-.endeavour_team h5,
-.endeavour_team p {
-  color: var(--endeavour-main-white);
 }
 
 .team_description {
