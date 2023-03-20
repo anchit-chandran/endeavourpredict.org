@@ -101,7 +101,7 @@ ul.adjectives-list {
 
 .what_we_do {
   width: 100%;
-  color: var(--endeavour-main-black);
+  color: var(--endeavour-main-white);
 }
 
 .what_icon_col {
@@ -110,7 +110,11 @@ ul.adjectives-list {
 
 .what_we_do h1,
 .what_we_do h2 {
-  color: var(--endeavour-main-bg-dark-blue);
+  color: var(--endeavour-main-white);
+}
+
+.what_we_do p {
+  font-size: 0.8rem;
 }
 
 .what_title {
@@ -127,7 +131,7 @@ i.what_we_do_icon {
 .endeavour_team {
   background: linear-gradient(
     0deg,
-    var(--endeavour-main-bg-dark-blue) 0%,
+    var(--md-footer-bg-color) 0%,
     var(--endeavour-main-black) 87%
   );
 }
