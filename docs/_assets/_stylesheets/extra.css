@@ -27,17 +27,13 @@
 
 /* ENDEAVOUR STYLINGS */
 
-section {
-  height: 85vh;
-}
-
 /* MASTHEAD SECTION */
 
 .endeavour_hero_masthead {
   background: linear-gradient(
     0deg,
-    var(--endeavour-lilac) 0%,
-    /* var(--endeavour-main-bg-dark-blue) 33%, */ var(--endeavour-main-blue) 87%
+    var(--endeavour-main-black) 0%,
+    var(--endeavour-main-blue) 87%
   );
 }
 
@@ -100,17 +96,11 @@ ul.adjectives-list {
 
 /* FEATURES SECTION */
 .endeavour_features {
-  background: linear-gradient(
-    0deg,
-    var(--endeavour-main-black) 0%,
-    var(--endeavour-lilac) 87%
-  );
+  background-color: var(--endeavour-main-black);
 }
 
 .what_we_do {
   width: 100%;
-  background-color: white;
-  border-radius: 60px 0px 60px 0px;
   color: var(--endeavour-main-black);
 }
 
@@ -170,8 +160,6 @@ img.team {
   font-size: 1rem;
   font-style: italic;
 }
-
-/* FOOTER */
 
 
 
