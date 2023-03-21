@@ -52,6 +52,8 @@
   row-gap: 4rem;
 
   text-align: center;
+
+  filter: drop-shadow(2px 4px 6px var(--endeavour-main-black));
 }
 
 .wave-img {
@@ -79,7 +81,7 @@
 }
 
 .endeavour_header_row {
-  height: 75vh;
+  height: 60vh;
 }
 
 .endeavour_header_col {
@@ -87,6 +89,7 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  filter: drop-shadow(1px 1px 3px var(--endeavour-main-black));
 }
 
 ul.adjectives-list {
