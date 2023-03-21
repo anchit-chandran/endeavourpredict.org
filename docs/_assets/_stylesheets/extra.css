@@ -49,10 +49,18 @@
   background-position: center;
   background-size: 75vh;
   background-repeat: no-repeat;
-  color: var(--color);
   row-gap: 4rem;
 
   text-align: center;
+}
+
+.wave-img {
+  background-position-y: 1%;
+  height: 24vh;
+  width: 100%;
+  background-image: url('../_images/wave-crop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .endeavour_hero_masthead {
