@@ -18,33 +18,46 @@ edit_uri: blob/main/docs
 # `mkdocs serve` serves the docs locally on this port
 dev_addr: "127.0.0.1:8001"
 
+# additional directories to watch when running `mkdocs serve`
+watch:
+  - endeavour-theme
+
 # Navigation structure
 nav:
   - Home: index.md # Landing page
   - About:
-    - About Us: about/index.md
+    - About Us: about/about.md
     - Strategy: about/strategy.md
   - Clinical Safety:
-      - Clinical Risk Management System: qrisk3/clinical-safety-management-system.md
-      - Clinical Safety Management Plan: qrisk3/clinical-safety-management-plan.md
-      - Hazard Log: safety/org-hazard-log.md
+    - Overview: "safety/clinical-safety.md"
+    - Clinical Safety File:
+      - Clinical Risk Management System: safety/clinical-safety-management-system.md
+      - Clinical Safety Management Plan: safety/clinical-safety-management-plan.md
+      - Clinical Safety Case Report: safety/clinical-safety-case-report.md
+      - Hazard Log: safety/hazard-log.md
+      - Third Party Tools Safety: safety/third-party-tools-safety.md
+      - License: 'safety/license.md'
+    - DTAC: 'safety/dtac.md'
+    - Medical Devices Registration: "safety/medical-device.md"
+    - Business Continuity: "safety/business-continuity.md"
+    - Download: 'safety/download.md'
   - QRISK3:
       - QRISK3 Overview: qrisk3/qrisk3.md
-      - Clinical Safety Case Report: qrisk3/clinical-safety-case-report.md
-      - Hazard Log: qrisk3/hazard-log.md"
-    # - "qrisk3/business-continuity.md"
-    # - "qrisk3/security.md"
-    # - "qrisk3/third-party-tools-safety-assmt.md"
-    # - "qrisk3/medical-device.md"
-    # - "qrisk3/download.md"
-    # - "qrisk3/contact.md"
-    # - "qrisk3/license.md"
   - Townsend Score: townsend/townsend.md
+  - Legal (RCPCH COPY):
+    - 'legal/disclaimer.md'
+    - 'legal/licensing-copyright.md'
+    - 'legal/data-protection.md'
+    - 'legal/privacy-notice.md'
+  - Technical:
+    - "technical/security.md"
+    - "technical/service-status.md"
+  - Contact: contact/contact.md
 
 # theme settings, fonts, colours
 theme:
   name: material
-  # custom_dir: endeavour-theme
+  custom_dir: endeavour-theme
   
   # replace these path or the contents of the files to change the logo and favicon
   logo: _assets/_images/logo.png
@@ -63,7 +76,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - toc.integrate
+    # - toc.integrate
     - toc.follow
 
   palette:

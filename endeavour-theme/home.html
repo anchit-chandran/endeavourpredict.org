@@ -1,0 +1,207 @@
+{% extends "main.html" %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+{%endblock%}
+<!-- BOOTSTRAP STYLESHEET IMPORT -->
+
+
+{% block tabs %}
+{{ super() }}
+
+<!-- BOOTSTRAP STYLESHEET IMPORT -->
+{% block styles %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+{{ super() }}
+{% endblock %}
+
+<!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
+<style>
+    /* keep nav at top on index.html */
+    header.md-header {
+        position: initial;
+    }
+    /* override md-main contents */
+    .md-main {
+        display: none;
+    }
+</style>
+<!-- STYLE OVERRIDES JUST FOR INDEX PAGE -->
+
+<section class="endeavour_hero_masthead">
+
+    <div class="endeavour_container container">
+        <div class="endeavour_header_row row justify-content-center align-items-center py-4">
+            <div class="endeavour_header_col d-flex col-12 col-md-10">
+
+                <h1 class="text-white">Endeavour <em>Predict</em> </h1>
+                <h2 class="text-white pt-3">Clinical digital tools As A Service</h2>
+                <div class=" mb-5 adjectives-container" aria-hidden="true">
+					<ul class="text-white adjectives-list">
+						<li class="adjective"><h3><em>made safe.</em></h3></li>
+						<li class="adjective"><h3><em>made reliable.</em></h3></li>
+						<li class="adjective"><h3><em>made transparent.</em></h3></li>
+					</ul>
+				</div>
+
+                <!-- <button type="button" class="btn btn-dark endeavour_main_button py-2" > -->
+                <a class="btn endeavour_main_button py-2" href="../about/">About us</a>
+                <!-- </button> -->
+
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="endeavour_features">
+    <div class="what_we_do container py-md-5">
+        <div class="row ">
+            <div class="col">
+                <h1 class="what_title">What we do</h1>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col-12 col-md-6">
+                <div class="row p-1 p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 1</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 2</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 3</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 4</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 5</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row p-1">
+                    <div class="what_icon_col col-1 me-2">
+                        <i class="bi-alarm what_we_do_icon " ></i>
+                    </div>
+                    <div class="col">
+                        <h2>Item 6</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt officiis natus, dicta ad magni
+                            aut eius voluptatum tempore consequuntur asperiores magnam voluptate perferendis autem error
+                            labore perspiciatis voluptates libero minus.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="endeavour_team">
+    <div class="endeavour_container container">          
+                <div class="row py-5 justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Our Team</h1>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col mx-3 ">
+                            <div class="team mb-3">
+                                <img class="team img-thumbnail" src="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-costume-white-background-person-gray-photo-placeholder-man-136701248.jpg" alt="">
+                                <div class=" text-center mt-2">
+                                  <h4 class="">Person 1</h4>
+                                  <h5 class="team_job">Job Title, Company</h5>
+                                  <p class="team_description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi qui harum quia tempore eveniet ad molestiae deleniti, natus accusamus mollitia expedita voluptate fugiat quo repellat assumenda! Magnam mollitia placeat aperiam accusantium      
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                         <div class="col mx-3 ">
+                            <div class="team mb-3">
+                                <img class="team img-thumbnail" src="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-costume-white-background-person-gray-photo-placeholder-man-136701248.jpg" alt="">
+                                <div class=" text-center mt-2">
+                                  <h4 class="">Person 2</h4>
+                                  <h5 class="team_job">Job Title, Company</h5>
+                                  <p class="team_description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi qui harum quia tempore eveniet ad molestiae deleniti, natus accusamus mollitia expedita voluptate fugiat quo repellat assumenda! Magnam mollitia placeat aperiam accusantium      
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                         <div class="col mx-3 ">
+                            <div class="team mb-3">
+                                <img class="team img-thumbnail" src="https://thumbs.dreamstime.com/b/person-gray-photo-placeholder-man-costume-white-background-person-gray-photo-placeholder-man-136701248.jpg" alt="">
+                                <div class=" text-center mt-2">
+                                  <h4 class="">Person 3</h4>
+                                  <h5 class="team_job">Job Title, Company</h5>
+                                  <p class="team_description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi qui harum quia tempore eveniet ad molestiae deleniti, natus accusamus mollitia expedita voluptate fugiat quo repellat assumenda! Magnam mollitia placeat aperiam accusantium      
+                                  </p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+               </div>               
+    </div>
+</section>
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
+
+<!-- Application footer -->
+{% block footer %}{{ super() }}{% endblock %}

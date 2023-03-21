@@ -1,8 +1,12 @@
 /* Set the main highlight colour to Endeavour blue */
 :root > * {
-  --md-primary-fg-color:        #4678a1;
+  --md-primary-fg-color: #4678a1;
+  --endeavour-main-blue: #4678a1;
+  --endeavour-main-bg-dark-blue: #2e303e;
+  --endeavour-main-black: #020100;
+  --endeavour-main-white: #fdfffc;
+  --endeavour-lilac: #7a306c;
 }
-
 
 /* Set the footer to Endeavour blue */
 .md-footer {
@@ -19,4 +23,164 @@
 /* enlarges the font used for titles and navbar */
 .md-header__title {
   font-size: 1.5rem;
+}
+
+/* ENDEAVOUR STYLINGS */
+
+/* MASTHEAD SECTION */
+
+.endeavour_hero_masthead {
+  background: linear-gradient(
+    0deg,
+    var(--endeavour-main-black) 0%,
+    var(--endeavour-main-blue) 87%
+  );
+}
+
+.endeavour_header_col h1,
+.endeavour_header_col h2,
+.endeavour_header_col h3 {
+  font-weight: 100;
+
+}
+
+.endeavour_header_row {
+  height: 75vh;
+}
+
+.endeavour_header_col {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+ul.adjectives-list {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.adjectives-container {
+  overflow: hidden;
+  height: calc(1.375rem + 1.5vw);
+}
+
+@keyframes change {
+  0%,
+  100%,
+  25.33% {
+    transform: translateY(0%);
+  }
+  33.33%,
+  59.66% {
+    transform: translateY(-36%);
+  }
+  66.66%,
+  93.99% {
+    transform: translateY(-73%);
+  }
+}
+
+.endeavour_header_col > h1,
+h2,
+h3 {
+  color: rgb(var(--endeavour-main-white));
+}
+
+.endeavour_header_col h1 {
+  font-size: calc(1.375rem + 4vw);
+}
+
+.endeavour_header_col > h2 {
+  font-size: calc(1.375rem + 1.4vw);
+}
+
+.adjective > h3 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+/* FEATURES SECTION */
+.endeavour_features {
+  background-color: var(--endeavour-main-black);
+}
+
+.what_we_do {
+  width: 100%;
+  color: var(--endeavour-main-white);
+}
+
+.what_icon_col {
+  padding: 0.2em 1em;
+}
+
+.what_we_do h1,
+.what_we_do h2 {
+  color: var(--endeavour-main-white);
+}
+
+.what_we_do p {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.what_title {
+  text-decoration: underline 3px var(--endeavour-main-blue);
+  text-underline-offset: 12px;
+}
+
+i.what_we_do_icon {
+  display: flex;
+  font-size: 2rem;
+}
+
+/* TEAM SECTION */
+.endeavour_team {
+  background-color: var(--endeavour-main-white);
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 100;
+}
+
+.team.card {
+  background-color: transparent;
+}
+
+img.team {
+  border-radius: 50%;
+  height: 20em;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team_job {
+  font-weight: 100;
+}
+
+.team_description {
+  text-align: justify;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+/* BUTTONS */
+.btn.endeavour_main_button {
+  color: var(--endeavour-main-black);
+  background-color: var(--endeavour-main-white);
+  box-shadow: -5px 5px 10px 1px rgb(0 0 0 / 75%);
+}
+
+.btn.endeavour_main_button:hover {
+  color: var(--endeavour-main-white);
+  background-color: var(--endeavour-lilac);
+  box-shadow: -5px 5px 10px 1px rgb(0 0 0 / 75%);
 }
