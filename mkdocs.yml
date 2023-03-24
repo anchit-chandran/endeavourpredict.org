@@ -46,6 +46,11 @@ nav:
       - Information: 'qrisk3/information.md'
       - Publications: 'qrisk3/publications.md'
       - Algorithm: 'qrisk3/algorithm.md'
+  - QDiabetes:
+      - QDiabetes Overview: 'qdiabetes/qdiabetes.md'
+      - Information: 'qdiabetes/information.md'
+      - Publications: 'qdiabetes/publications.md'
+      - Algorithm: 'qdiabetes/algorithm.md'
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
     - 'legal/disclaimer.md'
