@@ -43,15 +43,22 @@ nav:
     - Download: 'safety/download.md'
   - QTOOLS:
     - QRISK3:
-        - QRISK3 Overview: 'qtools/qrisk3/qrisk3.md'
-        - Information: 'qtools/qrisk3/information.md'
-        - Publications: 'qtools/qrisk3/publications.md'
-        - Algorithm: 'qtools/qrisk3/algorithm.md'
+      - QRISK3 Overview: 'qtools/qrisk3/qrisk3.md'
+      - Information: 'qtools/qrisk3/information.md'
+      - Publications: 'qtools/qrisk3/publications.md'
+      - Algorithm: 'qtools/qrisk3/algorithm.md'
+    - QRISK2:
+      - Legacy Information: 'qtools/qrisk2/qrisk2.md'
     - QDiabetes:
-        - QDiabetes Overview: 'qtools/qdiabetes/qdiabetes.md'
-        - Information: 'qtools/qdiabetes/information.md'
-        - Publications: 'qtools/qdiabetes/publications.md'
-        - Algorithm: 'qtools/qdiabetes/algorithm.md'
+      - QDiabetes Overview: 'qtools/qdiabetes/qdiabetes.md'
+      - Information: 'qtools/qdiabetes/information.md'
+      - Publications: 'qtools/qdiabetes/publications.md'
+      - Algorithm: 'qtools/qdiabetes/algorithm.md'
+    - QFracture:
+      - QFracture Overview: 'qtools/qfracture/qfracture.md'
+      - Information: 'qtools/qfracture/information.md'
+      - Publications: 'qtools/qfracture/publications.md'
+      - Algorithm: 'qtools/qfracture/algorithm.md'
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
     - 'legal/disclaimer.md'
