@@ -55,7 +55,7 @@ Conventionally a person is considered to be obese if they have a body mass index
 
 You have a positive family history if you have a mother, father, brother or sister who has had a heart attack or 'angina' under the age of 60.
 
-If you have a positive family history it will give you an increased risk so it is even more important that you try to have a healthy lifestyle -- i.e. don't smoke or aren't overweight, do exercise etc.
+If you have a positive family history it will give you an increased risk so it is even more important that you try to have a healthy lifestyle -i.e. don't smoke or aren't overweight, do exercise etc.
 
 ## Which people can have a QCVD®3 cardiovascular score calculated?
 
@@ -69,7 +69,7 @@ Cardiovascular risk varies according to where people live and the score takes th
 
 Blood pressure treatment lowers your blood pressure and reduces your risk of heart disease and stroke.
 
-The fact that you are taking blood pressure treatment means that you have already been identified by your doctor as someone needing treatment which automatically puts you in a higher risk group.
+The fact that you are taking blood pressure treatment means that you have already been identified by your doctor as someone needing treatment which automatically puts you in a higher-risk group.
 
 The treatment itself isn't increasing your risk but is acting as a marker for the fact that your underlying risk is higher.
 
@@ -89,7 +89,7 @@ An 'estimated' score is one for which some data is not known and the correspondi
 
 An 'actual' score is one for which all data is present and correctly entered.
 
-There is a sense in which any QRISK®3 score is always an estimate -- individuals are just that, and may have other risk factors or benefits that we have not taken into account.
+There is a sense in which any QRISK®3 score is always an estimate - individuals are just that, and may have other risk factors or benefits that we have not taken into account.
 
 ## Why is it important to measure HDL cholesterol to get the best estimate of CVD risk?
 
@@ -104,4 +104,4 @@ There are other factors which can increase CVD risk but are not directly account
 These include, for example, alcohol excess, poor diet, lack of exercise and extreme obesity. These factors will all tend to increase the risk of cardiovascular disease.
 Has NICE recommended QRISK®3?
 
-Yes -- it is their risk score of choice in their 2023 draft guidance.
+Yes - it is their risk score of choice in their 2023 draft guidance.
