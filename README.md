@@ -1,5 +1,9 @@
-# Clinical Safety Management File for Endeavour Predict
+# endeavourpredict.org
 
-Website and documentation for the Endeavour Predict API service
+Website and documentation for the Endeavour Predict service
 
-Includes Clinical Safety documentation
+Includes:
+
+* Clinical Safety documentation
+* Medical Device Regulation information
+* Integration documentation
