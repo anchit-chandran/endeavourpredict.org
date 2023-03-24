@@ -49,7 +49,7 @@ Your doctor will have a way of identifying who needs to be assessed based on inf
 Body mass index is a number calculated from your height and weight.
 
 It is the weight in kilograms divided by the height in metres squared.
-Conventionally a person is considered to be obese if they have a body mass index over 30 kg/m^2.
+Conventionally a person is considered to be obese if they have a body mass index over 30 kg/m<sup>2</sup>.
 
 ## What does 'family history of premature coronary heart disease in a first-degree relative' mean?
 
