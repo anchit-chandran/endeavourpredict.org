@@ -42,7 +42,10 @@ nav:
     - Business Continuity: "safety/business-continuity.md"
     - Download: 'safety/download.md'
   - QRISK3:
-      - QRISK3 Overview: qrisk3/qrisk3.md
+      - QRISK3 Overview: 'qrisk3/qrisk3.md'
+      - Information: 'qrisk3/information.md'
+      - Publications: 'qrisk3/publications.md'
+      - Algorithm: 'qrisk3/algorithm.md'
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
     - 'legal/disclaimer.md'
