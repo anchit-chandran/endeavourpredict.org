@@ -59,6 +59,17 @@ nav:
       - Information: 'qtools/qfracture/information.md'
       - Publications: 'qtools/qfracture/publications.md'
       - Algorithm: 'qtools/qfracture/algorithm.md'
+    - QAdmissions:
+      - QAdmissions Overview: 'qtools/qadmissions/qadmissions.md'
+      - Information: 'qtools/qadmissions/information.md'
+      - Publications: 'qtools/qadmissions/publications.md'
+      - Algorithm: 'qtools/qadmissions/algorithm.md'
+    - QStroke:
+      - QStroke Overview: 'qtools/qstroke/qstroke.md'
+      - Information: 'qtools/qstroke/information.md'
+      - Publications: 'qtools/qstroke/publications.md'
+      - Algorithm: 'qtools/qstroke/algorithm.md'
+
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
     - 'legal/disclaimer.md'
