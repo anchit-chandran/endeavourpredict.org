@@ -96,7 +96,7 @@ theme:
     - content.action.view # explicitly adds view button (Material4MkDocs9.0) 
     - content.code.copy
     - content.code.select
-    - navigation.expand
+    # - navigation.expand # turn off auto expand as too many for QTOOLS section
     - navigation.footer # explicitly adds footer prev/next (Material4MkDocs9.0) 
     - navigation.instant
     - navigation.tabs
