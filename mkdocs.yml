@@ -41,34 +41,32 @@ nav:
     - Medical Devices Registration: "safety/medical-device.md"
     - Business Continuity: "safety/business-continuity.md"
     - Download: 'safety/download.md'
-  - QTOOLS:
-    - QRISK3:
-      - QRISK3 Overview: 'qtools/qrisk3/qrisk3.md'
-      - Information: 'qtools/qrisk3/information.md'
-      - Publications: 'qtools/qrisk3/publications.md'
-      - Algorithm: 'qtools/qrisk3/algorithm.md'
-    - QRISK2:
-      - Legacy Information: 'qtools/qrisk2/qrisk2.md'
-    - QDiabetes:
-      - QDiabetes Overview: 'qtools/qdiabetes/qdiabetes.md'
-      - Information: 'qtools/qdiabetes/information.md'
-      - Publications: 'qtools/qdiabetes/publications.md'
-      - Algorithm: 'qtools/qdiabetes/algorithm.md'
-    - QFracture:
-      - QFracture Overview: 'qtools/qfracture/qfracture.md'
-      - Information: 'qtools/qfracture/information.md'
-      - Publications: 'qtools/qfracture/publications.md'
-      - Algorithm: 'qtools/qfracture/algorithm.md'
-    - QAdmissions:
-      - QAdmissions Overview: 'qtools/qadmissions/qadmissions.md'
-      - Information: 'qtools/qadmissions/information.md'
-      - Publications: 'qtools/qadmissions/publications.md'
-      - Algorithm: 'qtools/qadmissions/algorithm.md'
-    - QStroke:
-      - QStroke Overview: 'qtools/qstroke/qstroke.md'
-      - Information: 'qtools/qstroke/information.md'
-      - Publications: 'qtools/qstroke/publications.md'
-      - Algorithm: 'qtools/qstroke/algorithm.md'
+  - QRISK:
+    - QRISK3 Overview: 'qtools/qrisk3/qrisk3.md'
+    - Information: 'qtools/qrisk3/information.md'
+    - Publications: 'qtools/qrisk3/publications.md'
+    - Algorithm: 'qtools/qrisk3/algorithm.md'
+    - QRISK2 Legacy Information: 'qtools/qrisk2/qrisk2.md'
+  - QDiabetes:
+    - QDiabetes Overview: 'qtools/qdiabetes/qdiabetes.md'
+    - Information: 'qtools/qdiabetes/information.md'
+    - Publications: 'qtools/qdiabetes/publications.md'
+    - Algorithm: 'qtools/qdiabetes/algorithm.md'
+  - QFracture:
+    - QFracture Overview: 'qtools/qfracture/qfracture.md'
+    - Information: 'qtools/qfracture/information.md'
+    - Publications: 'qtools/qfracture/publications.md'
+    - Algorithm: 'qtools/qfracture/algorithm.md'
+  - QAdmissions:
+    - QAdmissions Overview: 'qtools/qadmissions/qadmissions.md'
+    - Information: 'qtools/qadmissions/information.md'
+    - Publications: 'qtools/qadmissions/publications.md'
+    - Algorithm: 'qtools/qadmissions/algorithm.md'
+  - QStroke:
+    - QStroke Overview: 'qtools/qstroke/qstroke.md'
+    - Information: 'qtools/qstroke/information.md'
+    - Publications: 'qtools/qstroke/publications.md'
+    - Algorithm: 'qtools/qstroke/algorithm.md'
 
   - Townsend Score: townsend/townsend.md
   - Legal (RCPCH COPY):
@@ -77,8 +75,14 @@ nav:
     - 'legal/data-protection.md'
     - 'legal/privacy-notice.md'
   - Technical:
-    - "technical/security.md"
-    - "technical/service-status.md"
+    - Security: "technical/security.md"
+    - Service-status: "technical/service-status.md"
+    - API:
+      - QRISK: "qtools/qrisk3/qrisk3API.md"
+      - QDiabetes: "qtools/qdiabetes/qdiabetesAPI.md"
+      - QFracture: "qtools/qfracture/qfractureAPI.md"
+      - QAdmissions: "qtools/qadmissions/qadmissionsAPI.md"
+      - QStroke: "qtools/qstroke/qstrokeAPI.md"
   - Contact: contact/contact.md
 
 # theme settings, fonts, colours
