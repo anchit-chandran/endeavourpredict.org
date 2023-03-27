@@ -87,7 +87,7 @@ theme:
   custom_dir: endeavour-theme
   
   # replace these path or the contents of the files to change the logo and favicon
-  logo: _assets/_images/logo.png
+  logo: _assets/_images/logo-secondary-nobg.png
   favicon: _assets/_images/favicon.png
 
   features:
